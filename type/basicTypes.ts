@@ -90,10 +90,10 @@ declare function create(o: object | null): void
 create({prop: 0})
 create(null)
 
-create(123) // error
-create('hello') // error
-create(false) // error
-create(undefined) // error
+// create(123) // error
+// create('hello') // error
+// create(false) // error
+// create(undefined) // error
 
 // Type assertions
 // angle-bracket
